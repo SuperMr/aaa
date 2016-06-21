@@ -18,6 +18,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     UIButton *bu = [[UIButton alloc]init];
+    UIButton *bu1 = [[UIButton alloc]init];
+    [self.view addSubview:bu1];
     [self.view addSubview:bu];
 }
 
