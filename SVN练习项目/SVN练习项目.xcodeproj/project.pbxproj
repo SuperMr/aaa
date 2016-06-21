@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFA9E71E1D18317A00007A77 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA9E71D1D18317A00007A77 /* main.m */; };
+		BFA9E7211D18317A00007A77 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA9E7201D18317A00007A77 /* AppDelegate.m */; };
+		BFA9E7241D18317A00007A77 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA9E7231D18317A00007A77 /* ViewController.m */; };
+		BFA9E7271D18317A00007A77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFA9E7251D18317A00007A77 /* Main.storyboard */; };
+		BFA9E7291D18317A00007A77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFA9E7281D18317A00007A77 /* Assets.xcassets */; };
+		BFA9E72C1D18317A00007A77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFA9E72A1D18317A00007A77 /* LaunchScreen.storyboard */; };
+		BFA9E7371D18317B00007A77 /* SVN____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA9E7361D18317B00007A77 /* SVN____Tests.m */; };
+		BFA9E7421D18317B00007A77 /* SVN____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA9E7411D18317B00007A77 /* SVN____UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFA9E7331D18317B00007A77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFA9E7111D18317A00007A77 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFA9E7181D18317A00007A77;
+			remoteInfo = "SVN练习项目";
+		};
+		BFA9E73E1D18317B00007A77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFA9E7111D18317A00007A77 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFA9E7181D18317A00007A77;
+			remoteInfo = "SVN练习项目";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BFA9E7191D18317A00007A77 /* SVN练习项目.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SVN练习项目.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFA9E71D1D18317A00007A77 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BFA9E71F1D18317A00007A77 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BFA9E7201D18317A00007A77 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BFA9E7221D18317A00007A77 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BFA9E7231D18317A00007A77 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BFA9E7261D18317A00007A77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BFA9E7281D18317A00007A77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFA9E72B1D18317A00007A77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BFA9E72D1D18317A00007A77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFA9E7321D18317B00007A77 /* SVN练习项目Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SVN练习项目Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFA9E7361D18317B00007A77 /* SVN____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SVN____Tests.m"; sourceTree = "<group>"; };
+		BFA9E7381D18317B00007A77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFA9E73D1D18317B00007A77 /* SVN练习项目UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SVN练习项目UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFA9E7411D18317B00007A77 /* SVN____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SVN____UITests.m"; sourceTree = "<group>"; };
+		BFA9E7431D18317B00007A77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFA9E7161D18317A00007A77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA9E72F1D18317B00007A77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA9E73A1D18317B00007A77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFA9E7101D18317A00007A77 = {
+			isa = PBXGroup;
+			children = (
+				BFA9E71B1D18317A00007A77 /* SVN练习项目 */,
+				BFA9E7351D18317B00007A77 /* SVN练习项目Tests */,
+				BFA9E7401D18317B00007A77 /* SVN练习项目UITests */,
+				BFA9E71A1D18317A00007A77 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFA9E71A1D18317A00007A77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFA9E7191D18317A00007A77 /* SVN练习项目.app */,
+				BFA9E7321D18317B00007A77 /* SVN练习项目Tests.xctest */,
+				BFA9E73D1D18317B00007A77 /* SVN练习项目UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFA9E71B1D18317A00007A77 /* SVN练习项目 */ = {
+			isa = PBXGroup;
+			children = (
+				BFA9E71F1D18317A00007A77 /* AppDelegate.h */,
+				BFA9E7201D18317A00007A77 /* AppDelegate.m */,
+				BFA9E7221D18317A00007A77 /* ViewController.h */,
+				BFA9E7231D18317A00007A77 /* ViewController.m */,
+				BFA9E7251D18317A00007A77 /* Main.storyboard */,
+				BFA9E7281D18317A00007A77 /* Assets.xcassets */,
+				BFA9E72A1D18317A00007A77 /* LaunchScreen.storyboard */,
+				BFA9E72D1D18317A00007A77 /* Info.plist */,
+				BFA9E71C1D18317A00007A77 /* Supporting Files */,
+			);
+			path = "SVN练习项目";
+			sourceTree = "<group>";
+		};
+		BFA9E71C1D18317A00007A77 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFA9E71D1D18317A00007A77 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BFA9E7351D18317B00007A77 /* SVN练习项目Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BFA9E7361D18317B00007A77 /* SVN____Tests.m */,
+				BFA9E7381D18317B00007A77 /* Info.plist */,
+			);
+			path = "SVN练习项目Tests";
+			sourceTree = "<group>";
+		};
+		BFA9E7401D18317B00007A77 /* SVN练习项目UITests */ = {
+			isa = PBXGroup;
+			children = (
+				BFA9E7411D18317B00007A77 /* SVN____UITests.m */,
+				BFA9E7431D18317B00007A77 /* Info.plist */,
+			);
+			path = "SVN练习项目UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFA9E7181D18317A00007A77 /* SVN练习项目 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFA9E7461D18317B00007A77 /* Build configuration list for PBXNativeTarget "SVN练习项目" */;
+			buildPhases = (
+				BFA9E7151D18317A00007A77 /* Sources */,
+				BFA9E7161D18317A00007A77 /* Frameworks */,
+				BFA9E7171D18317A00007A77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SVN练习项目";
+			productName = "SVN练习项目";
+			productReference = BFA9E7191D18317A00007A77 /* SVN练习项目.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFA9E7311D18317B00007A77 /* SVN练习项目Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFA9E7491D18317B00007A77 /* Build configuration list for PBXNativeTarget "SVN练习项目Tests" */;
+			buildPhases = (
+				BFA9E72E1D18317B00007A77 /* Sources */,
+				BFA9E72F1D18317B00007A77 /* Frameworks */,
+				BFA9E7301D18317B00007A77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFA9E7341D18317B00007A77 /* PBXTargetDependency */,
+			);
+			name = "SVN练习项目Tests";
+			productName = "SVN练习项目Tests";
+			productReference = BFA9E7321D18317B00007A77 /* SVN练习项目Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BFA9E73C1D18317B00007A77 /* SVN练习项目UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFA9E74C1D18317B00007A77 /* Build configuration list for PBXNativeTarget "SVN练习项目UITests" */;
+			buildPhases = (
+				BFA9E7391D18317B00007A77 /* Sources */,
+				BFA9E73A1D18317B00007A77 /* Frameworks */,
+				BFA9E73B1D18317B00007A77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFA9E73F1D18317B00007A77 /* PBXTargetDependency */,
+			);
+			name = "SVN练习项目UITests";
+			productName = "SVN练习项目UITests";
+			productReference = BFA9E73D1D18317B00007A77 /* SVN练习项目UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFA9E7111D18317A00007A77 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = super;
+				TargetAttributes = {
+					BFA9E7181D18317A00007A77 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 5643RK7HM9;
+					};
+					BFA9E7311D18317B00007A77 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 5643RK7HM9;
+						TestTargetID = BFA9E7181D18317A00007A77;
+					};
+					BFA9E73C1D18317B00007A77 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 5643RK7HM9;
+						TestTargetID = BFA9E7181D18317A00007A77;
+					};
+				};
+			};
+			buildConfigurationList = BFA9E7141D18317A00007A77 /* Build configuration list for PBXProject "SVN练习项目" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFA9E7101D18317A00007A77;
+			productRefGroup = BFA9E71A1D18317A00007A77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFA9E7181D18317A00007A77 /* SVN练习项目 */,
+				BFA9E7311D18317B00007A77 /* SVN练习项目Tests */,
+				BFA9E73C1D18317B00007A77 /* SVN练习项目UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFA9E7171D18317A00007A77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFA9E72C1D18317A00007A77 /* LaunchScreen.storyboard in Resources */,
+				BFA9E7291D18317A00007A77 /* Assets.xcassets in Resources */,
+				BFA9E7271D18317A00007A77 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA9E7301D18317B00007A77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA9E73B1D18317B00007A77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFA9E7151D18317A00007A77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFA9E7241D18317A00007A77 /* ViewController.m in Sources */,
+				BFA9E7211D18317A00007A77 /* AppDelegate.m in Sources */,
+				BFA9E71E1D18317A00007A77 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA9E72E1D18317B00007A77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFA9E7371D18317B00007A77 /* SVN____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA9E7391D18317B00007A77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFA9E7421D18317B00007A77 /* SVN____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFA9E7341D18317B00007A77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFA9E7181D18317A00007A77 /* SVN练习项目 */;
+			targetProxy = BFA9E7331D18317B00007A77 /* PBXContainerItemProxy */;
+		};
+		BFA9E73F1D18317B00007A77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFA9E7181D18317A00007A77 /* SVN练习项目 */;
+			targetProxy = BFA9E73E1D18317B00007A77 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BFA9E7251D18317A00007A77 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFA9E7261D18317A00007A77 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BFA9E72A1D18317A00007A77 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFA9E72B1D18317A00007A77 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFA9E7441D18317B00007A77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFA9E7451D18317B00007A77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFA9E7471D18317B00007A77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "SVN练习项目/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "chao.SVN----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BFA9E7481D18317B00007A77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "SVN练习项目/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "chao.SVN----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BFA9E74A1D18317B00007A77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "SVN练习项目Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "chao.SVN----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SVN练习项目.app/SVN练习项目";
+			};
+			name = Debug;
+		};
+		BFA9E74B1D18317B00007A77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "SVN练习项目Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "chao.SVN----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SVN练习项目.app/SVN练习项目";
+			};
+			name = Release;
+		};
+		BFA9E74D1D18317B00007A77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "SVN练习项目UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "chao.SVN----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "SVN练习项目";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BFA9E74E1D18317B00007A77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "SVN练习项目UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "chao.SVN----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "SVN练习项目";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFA9E7141D18317A00007A77 /* Build configuration list for PBXProject "SVN练习项目" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFA9E7441D18317B00007A77 /* Debug */,
+				BFA9E7451D18317B00007A77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFA9E7461D18317B00007A77 /* Build configuration list for PBXNativeTarget "SVN练习项目" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFA9E7471D18317B00007A77 /* Debug */,
+				BFA9E7481D18317B00007A77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BFA9E7491D18317B00007A77 /* Build configuration list for PBXNativeTarget "SVN练习项目Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFA9E74A1D18317B00007A77 /* Debug */,
+				BFA9E74B1D18317B00007A77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BFA9E74C1D18317B00007A77 /* Build configuration list for PBXNativeTarget "SVN练习项目UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFA9E74D1D18317B00007A77 /* Debug */,
+				BFA9E74E1D18317B00007A77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFA9E7111D18317A00007A77 /* Project object */;
+}
