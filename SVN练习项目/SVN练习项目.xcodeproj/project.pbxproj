@@ -15,6 +15,7 @@
 		BFA9E72C1D18317A00007A77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFA9E72A1D18317A00007A77 /* LaunchScreen.storyboard */; };
 		BFA9E7371D18317B00007A77 /* SVN____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA9E7361D18317B00007A77 /* SVN____Tests.m */; };
 		BFA9E7421D18317B00007A77 /* SVN____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA9E7411D18317B00007A77 /* SVN____UITests.m */; };
+		BFA9E7D01D18EEAA00007A77 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA9E7CF1D18EEAA00007A77 /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		BFA9E73D1D18317B00007A77 /* SVN练习项目UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SVN练习项目UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFA9E7411D18317B00007A77 /* SVN____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SVN____UITests.m"; sourceTree = "<group>"; };
 		BFA9E7431D18317B00007A77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFA9E7CE1D18EEAA00007A77 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		BFA9E7CF1D18EEAA00007A77 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				BFA9E7201D18317A00007A77 /* AppDelegate.m */,
 				BFA9E7221D18317A00007A77 /* ViewController.h */,
 				BFA9E7231D18317A00007A77 /* ViewController.m */,
+				BFA9E7CE1D18EEAA00007A77 /* SecondViewController.h */,
+				BFA9E7CF1D18EEAA00007A77 /* SecondViewController.m */,
 				BFA9E7251D18317A00007A77 /* Main.storyboard */,
 				BFA9E7281D18317A00007A77 /* Assets.xcassets */,
 				BFA9E72A1D18317A00007A77 /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFA9E7D01D18EEAA00007A77 /* SecondViewController.m in Sources */,
 				BFA9E7241D18317A00007A77 /* ViewController.m in Sources */,
 				BFA9E7211D18317A00007A77 /* AppDelegate.m in Sources */,
 				BFA9E71E1D18317A00007A77 /* main.m in Sources */,
@@ -501,6 +507,7 @@
 				BFA9E7481D18317B00007A77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BFA9E7491D18317B00007A77 /* Build configuration list for PBXNativeTarget "SVN练习项目Tests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +516,7 @@
 				BFA9E74B1D18317B00007A77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BFA9E74C1D18317B00007A77 /* Build configuration list for PBXNativeTarget "SVN练习项目UITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +525,7 @@
 				BFA9E74E1D18317B00007A77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
